@@ -1,0 +1,44 @@
+* {
+    display: block;
+    box-sizing: border-box;
+}
+.restaurante {
+    background-color: #ea1d2c;
+    height: 15rem;
+    width: 25rem;
+    border-radius: 18px;  
+}
+.text-container{
+    color: #fff;
+    padding-top: 50px;
+    padding-left: 20px;
+    font-size: 35px;
+}
+.button-container{
+    display: flex;
+    padding-top: px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;    
+    border: #ea1d2c;
+    margin-top: 150px;
+    margin-left: 30px;
+    align-content: space-between;
+    align-items: center;
+    background-color: #cc1625;
+    color: white;
+    position: absolute;
+}
+.seta {
+    width: 15px;
+    margin-left: 10px;
+    color: white;
+}
+.burgao{
+    display: flex;
+    margin-top: 60;
+    position: absolute;
+    margin-left: 160px;
+    padding-top: 33px;
+    margin-top: 48px;
+}

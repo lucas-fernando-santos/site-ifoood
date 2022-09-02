@@ -1,0 +1,396 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+a{
+    text-decoration: none;
+}
+header{
+    background-color: rgb(200,200,200);
+    width: 100%;
+    height: 1px;
+}
+nav{
+    background-color:rgb(255, 247, 247);
+    width: 100%;
+    height: 140px;
+    display: flex;
+    top: 0;
+    position: sticky;
+    overflow: hidden;
+    z-index: 9;
+}
+button {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+#b1 {
+        background-color: var(--background-base,#ff0000);
+        color: var(--text-base,#ffffff);
+        border-radius: 6px;
+        font-size: inherit;
+        padding-block: 14px;
+        color: white;
+        margin-left: 35%;
+        margin-top: 3%;
+        margin-bottom: 85%;
+        padding-bottom: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-color: red;
+}
+ul {
+    
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: 18px;
+}
+li {
+    display: flex;
+    display: list-item;
+    margin-top: 60px;
+    padding-left: 40px;
+    font-size: 16px;
+    color: #3e3e3e;
+    cursor: pointer;
+}
+#p-a {
+    position: absolute;
+    font-style: none;
+    text-decoration-style: none;
+    margin-top: 60px;
+    margin-left: 75%;
+    color: #ff0000;
+    outline-style: none;
+}
+.logo {
+    position:absolute;
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#p-logo{
+    margin-left: 110px;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.incon-map {
+    width: 30px;
+}
+#text1 {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+#text2 {
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+input {
+    border: none;
+}
+#b2 {
+    background-color: var(--background-base,#ff0000);
+    color: var(--text-base,#ffffff);
+    border-radius: 6px;
+    font-size: inherit;
+    padding-block: 14px;
+    color: white;
+    margin-left: 500px;
+    margin-top: 3%;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-color: red;
+}
+.buscar {
+     margin-left: 300px;
+    } 
+.anuncios-s{
+    display: flex;
+    flex-direction:row; 
+    align-items: center;
+    justify-content: center;
+}
+.restaurante {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    background-color: #ea1d2c;
+    height: 14rem;
+    width: 24rem;
+    border-radius: 18px;  
+    cursor: pointer;
+    margin-right: 5rem;
+    margin-left: 1rem;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-container{
+    color: #fff;
+    padding-top : 50px;
+    padding-left: 50px;
+    font-size: 35px;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    width: 150px;
+    border: #ea1d2c;
+    background-color: #cc1625;
+    color: white; 
+    text-align: center;
+    border-radius: 12px;
+    margin: 0px 0px 30px 50px;
+}
+.seta{
+    height: 25px;
+}
+
+.burgao{
+    height: 150px;
+    width: 200px;
+    margin-top: auto;
+}
+@keyframes animation {
+    0% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1.05)
+    }
+}
+.restaurante:hover {
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-timing-function:ease-in-out ;
+    animation-iteration-count: var(--background-tinted-press);
+    animation-duration: alternate;
+    cursor: pointer;
+    animation-play-state: var(--background-tinted-press);
+}  
+.mercado {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    background-color: #b6d048;
+    height: 14rem;
+    width: 24rem;
+    border-radius: 18px;  
+    cursor: pointer;
+    margin-right: 5rem;
+    margin-left: 1rem;
+}
+.informação{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-container{
+    color: #fff;
+    padding-top : 50px;
+    padding-left: 50px;
+    font-size: 35px;
+}
+#button-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    width: 150px;
+    border: #b6d048;
+    background-color: #9eb53e;
+    color: white; 
+    text-align: center;
+    border-radius: 12px;
+    margin: 0px 0px 30px 50px;
+}
+.seta{
+    height: 25px;
+}
+.carrinho{
+    height: 150px;
+    width: 200px;
+    margin-top: auto;
+}
+@keyframes animation {
+    0% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1.05)
+    }
+}
+.mercado:hover {
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-timing-function:ease-in-out ;
+    animation-iteration-count: var(--background-tinted-press);
+    animation-duration: alternate;
+    cursor: pointer;
+    animation-play-state: var(--background-tinted-press);
+} 
+.anuncios-t {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.imagens-t {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+}
+.text-t{
+    display: flex;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+}
+
+.butons-ads{
+    width: 250px;
+    border: 1px solid lightgray;
+    margin-top: 12px;
+    cursor: pointer;
+}
+#p1 {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+@keyframes animation2 {
+    0% {
+        border:2px solid black;
+    }
+    100% {
+        border:2px solid black;
+    }}
+.butons-ads:hover {
+        animation-name: animation2;
+        animation-duration: 10s;
+        animation-timing-function:ease-in-out ;
+        animation-iteration-count: var(--background-tinted-press);
+        animation-duration: alternate;
+        cursor: pointer;
+        animation-play-state: var(--background-tinted-press);
+    }
+.img-mid {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+#img-p {
+    margin-left: 30px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+#img-e {
+    margin-top: 60px;
+    cursor: pointer;
+}
+#png003 {
+    margin-top: 140px;
+    margin-left: 140px;
+    position: static;
+}
+#b3 {
+    background-color: var(--background-base,#ff0000);
+    color: var(--text-base,#ffffff);
+    border-radius: 6px;
+    font-size: inherit;
+    padding-block: 14px;
+    color: white;
+    margin-left: 400px;
+    margin-top: 400px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-color: red;  
+    position: absolute;
+    cursor: pointer;
+}
+#b4 {
+    background-color: var(--background-base,#ff0000);
+    color: var(--text-base,#ffffff);
+    border-radius: 6px;
+    font-size: inherit;
+    padding-block: 14px;
+    color: white;
+    margin-left: 950px;
+    margin-top: 400px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-color: red;  
+    position: absolute;
+    cursor: pointer;
+}
+#titulo1 {
+    margin-left: 140px;
+    margin-top: 120px;
+    padding-right: 0;
+    position: absolute;
+}
+#text3 {
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey; 
+    margin-left: 140px;
+    padding-right: 0;
+    position: absolute;
+}
+#img007 {
+    margin-top: 5px;
+margin-left: 480px;
+padding-left: 0;
+box-sizing: border-box;
+}
+#card-ifood {
+    width: 1200px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.listagem {
+    color: grey;
+    font-style: none;
+    text-decoration-style: none;
+}
+.ver{
+    margin-left: 90%;
+    color: #ff0000  ;
+}
+span{ 
+    margin-left: 90px;
+    font-size: 25px;
+}
+a {
+  font-style: none;
+  text-decoration-style: none;
+  color: black;
+}
+#img000 {
+    width: 90px;
+}
+hr {
+    color: rgba(218, 218, 218, 0.418);
+}
